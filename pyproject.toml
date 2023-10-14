@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "llm-quickstart"
+version = "0.1.0"
+description = ""
+authors = ["Max-Eugène Mamet <max-eugene@hotmail.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.27.2"
+openai = "^0.28.1"
+langchain = "^0.0.314"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
